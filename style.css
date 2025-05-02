@@ -40,3 +40,13 @@ nav a:hover {
         padding: 10px 0;
     }
 }
+
+.negocio img {
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inicio {
+    display: flex;
+}

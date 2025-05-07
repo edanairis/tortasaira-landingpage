@@ -45,20 +45,32 @@ nav a:hover {
     display: flex;
     align-items: center;
     margin: 70px;
+    justify-content: space-between;
 }
 
 .inicio__derecha img {
     height: 250px;
-    flex-direction: row;
+    max-width: 100%;
 }
 
 .inicio__izquierda {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex: 1;
 }
 
 .inicio__imagen {
     height: 210px;
+    max-width: 100%;
 }
 
+.inicio__parrafo {
+    margin: 0 0 70px 0;
+}
+
+.inicio__button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}

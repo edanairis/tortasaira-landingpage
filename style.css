@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
-    background-color: #F2D0DD;
+    background-color: #F2B6CC;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -14,6 +14,8 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/*NAVBAR*/
 
 header {
     display: flex;
@@ -46,6 +48,8 @@ nav a:hover {
         padding: 10px 0;
     }
 }
+
+/*INICIO*/
 
 .inicio {
     display: flex;
@@ -97,10 +101,14 @@ nav a:hover {
     font-size: 17px;
 }
 
+/*ABOUT ME*/
+
 .sobrenosotros { 
     background-color: white; 
     display: flex; 
-    align-items: center; 
+    align-items: center;
+    justify-content: space-between;
+    
 } 
 
 .sobrenosotros__derecha { 
@@ -134,3 +142,49 @@ nav a:hover {
 .sobrenosotros__izquierda img { 
     width: 350px; 
     border-radius: 2%; }
+
+    /*QUOTE*/
+
+    .quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 70px;
+    }
+
+    .quote__frase {
+        font-size: 30px;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        font-style: italic;
+    }
+
+    .quote__autor {
+        display: flex;
+        justify-content: flex-end;
+        margin: 250px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    /*MAS INFO*/
+
+    .masinfo {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+
+
+    .masinfo__derecha {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        text-align: center;
+    }

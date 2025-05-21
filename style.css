@@ -149,6 +149,30 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 50px 70px; /* 50px vertical y 70px horizontal */
+    }
+    
+    .quote__frase {
+        font-size: 30px;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        font-style: italic;
+    }
+    
+    .quote__autor {
+        display: flex;
+        justify-content: flex-end;
+        margin: 10px 0 0 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+
+    /*.quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         padding: 70px;
     }
 
@@ -167,21 +191,79 @@ nav a:hover {
         font-size: 20px;
         font-weight: bold;
         margin-top: 10px;
-    }
+    }*/
 
     /*MAS INFO*/
+
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        margin: 0 auto;
+        padding: 60px;
+        
+    }
 
     .masinfo {
         display: flex;
         justify-content: space-between;
-        background-color: white;
+        align-items: center;
+        background-color: #F285AD;
+        width: 800px;
+        padding: 30px;
+        margin: 0 auto;
+        color: white;
+        border-radius: 10px;
     }
 
 
     .masinfo__derecha {
         display: flex;
-        justify-content: flex-end;
+        align-items: center;
+        margin-left: auto;
     }
+
+    .masinfo__izquierda {
+        max-width: 600px;
+    }
+
+    .masinfo__titulo {
+        margin: 0 0 8px 0;
+    }
+
+    .masinfo__parrafo {
+        text-align: justify;
+        margin: 0;
+    }
+
+    .masinfo__button {
+        background-color: transparent;   /* Fondo transparente */
+        color: white;                    /* Texto blanco */
+        border: 2px solid white;         /* Borde blanco y más grueso */
+        border-radius: 8px;              /* Bordes redondeados */
+        padding: 10px 20px;              /* Espaciado interno */
+        font-weight: bold;              /* Texto en negrita */
+        font-size: 16px;                 /* Tamaño de texto */
+        cursor: pointer;                 /* Cambia el cursor al pasar encima */
+        transition: background-color 0.3s, color 0.3s; /* Efecto suave (opcional) */
+    }
+
+    .masinfo__button:hover {
+        background-color: white;
+        color: #F285AD; /* El fondo rosa del bloque */
+    }
+    
+
+    /*.masinfo__button {
+        border-radius: 10px;
+        background-color: #F285AD;
+        color: white;
+        border-color: white;
+        width: 130px;
+        height: 40px; 
+        font-weight: bold;
+        font-size: 17px;
+    }*/
 
     /*FOOTER*/
 
